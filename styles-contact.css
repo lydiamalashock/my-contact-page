@@ -74,7 +74,11 @@ background-position: center;
 	min-width: 300px; /* ---for responsiveness---*/
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(148, 69, 118, 0.75); /*this uses opacity of 75% for the background color*/
+		background-image:
+		  radial-gradient(
+			rgba(241, 172, 193, 0.864),
+		  rgba(148, 69, 118, 0.75)
+		  );
 	text-align: center;
 	border: 3px inset rgba(148, 69, 118);
 	/*changed border color and style*/
@@ -144,5 +148,5 @@ a{
 
 a:hover{
 	color: black;
-	background: rgb(246, 191, 238);
+	background: rgb(246, 191, 238); /* changed the shade of pink to match border */
 }
