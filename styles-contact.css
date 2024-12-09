@@ -66,30 +66,32 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 	
-	
-}
+
 
 .center {
     width: 50%; /* ---for responsiveness---*/
 	min-width: 300px; /* ---for responsiveness---*/
+	border-radius: 25px; /* --- rounded corners ---*/
 	padding: 2%;
     margin: 100px auto;
 		background-image:
-		  radial-gradient(
+		  radial-gradient( /* ---- added a gradient ---- */
 			rgba(241, 172, 193, 0.864),
 		  rgba(148, 69, 118, 0.75)
 		  );
 	text-align: center;
-	border: 3px inset rgba(148, 69, 118);
+	border: 6px double rgb(68, 26, 51);
 	/*changed border color and style*/
 }
 
+  }
    
 #logo {
     width: 60%; /* ---for responsiveness---*/
 	margin-bottom: 16px;
 	text-align: center;
 	/* deleted border */
+	animation: 
 }
 
 h1 {
@@ -98,7 +100,7 @@ h1 {
 	font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: rgb(255, 244, 249);
 }
 
 h2 {
@@ -107,7 +109,7 @@ h2 {
 	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: rgb(86, 38, 68);
+    color: rgb(113, 52, 84);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -118,14 +120,14 @@ p {
 	font-style: italic;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: rgb(246, 191, 238);
+	color: rgb(47, 17, 35); /* ---made darker for visability--- */
 }
 nav{
 	font-family: Georgia, serif;
 	font-size: 1.2em;
 	width: 80%; /* ---for responsiveness---*/
 	margin: 0 auto;
-	border: solid rgb(246, 191, 238); /* border changed color and style */
+	border: solid rgb(234, 181, 205); /* border changed color and style */
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -147,6 +149,6 @@ a{
 }
 
 a:hover{
-	color: black;
-	background: rgb(246, 191, 238); /* changed the shade of pink to match border */
+	color: rgb(86, 38, 68);;
+	background: rgb(234, 181, 205); /* changed the shade of pink to match border */
 }

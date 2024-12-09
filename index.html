@@ -2,7 +2,23 @@
 <html>
 
 <head>
+    <style> /* ---adds a fade in feature--- */
+        body {
+            animation: fadeInAnimation ease 2.5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
 
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
 <meta charset=”UTF-8”>
 
 <link rel="stylesheet" href="https://use.typekit.net/uij4wip.css">
@@ -12,11 +28,11 @@
 </head>
 
 <body>
-
+    
 <div class="center">
     <img id="logo" src="images/initials@2x.png" alt="LM logo" width="600">
     <h1>Cal Poly, San Luis Obispo | Class of 2028</h1>
-    <h2>Graphic Communications Major</h2>
+    <h2>Graphic Communication Major</h2>
     <p>Welcome to my contact page! Feel free to reach out if you have any questions or concerns!</p>
 <nav>
     <ul>
@@ -25,7 +41,7 @@
         <li><a href="mailto:lydiamalashock@gmail.com"> Email Me </a></li>
     </ul>
 </nav>
-
+  
 </div> <!--end of center div-->
 
 </body>
